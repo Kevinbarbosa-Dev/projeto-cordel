@@ -1,0 +1,89 @@
+@charset  "utf-8";
+@font-face{
+    font-family:'Verve';
+    src: url('verve/Verve.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gray;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.281);
+}
+header > h1{
+    font-family: "Verve";
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: rgba(48, 45, 45, 0.363);
+}
+section > p{
+    font-family: 'Sriracha', cursive;
+    font-size: large;
+    line-height: 2em;
+    margin-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    padding: 20px;
+    background: rgb(65, 64, 64) url(storybook/imagens/maniraj-madishetty-v1cHuJxClF0-unsplash.jpg) center right no-repeat fixed;
+    background-size: cover;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.281);
+    
+}
+.imagem2{
+    padding: 20px;
+    background: url(storybook/imagens/kristian-seedorff-BvUicqkaZZ0-unsplash.jpg) bottom right no-repeat fixed;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.281);
+}
+.imagem > p{
+    width: 350px;
+    background-color: rgba(39, 38, 38, 0.5);
+    color: white;
+    padding-left: 10px;
+    margin-left: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+.imagem2 > p{
+    width: 350px;
+    background-color: rgba(39, 38, 38, 0.5);
+    color: white;
+    padding-left: 10px;
+    margin-left: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
